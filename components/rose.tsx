@@ -1,17 +1,15 @@
-import Image from "next/rose"
-
 export function Rose({ className = "" }: { className?: string }) {
   return (
     <div className={`relative ${className}`}>
       {/* Floating hearts around the rose */}
       <svg
         viewBox="0 0 200 200"
-        className="absolute -top-4 -left-8 w-12 h-12 animate-pulse"
+        className="absolute -top-4 -left-10 w-12 h-12 animate-pulse"
         style={{ animationDelay: "0s" }}
       >
         <path
           d="M100 180 C60 140 20 100 20 60 C20 30 50 10 100 50 C150 10 180 30 180 60 C180 100 140 140 100 180Z"
-          fill="#f472b6"
+          fill="#e52d2d"
           opacity="0.8"
         />
       </svg>
@@ -22,7 +20,7 @@ export function Rose({ className = "" }: { className?: string }) {
       >
         <path
           d="M100 180 C60 140 20 100 20 60 C20 30 50 10 100 50 C150 10 180 30 180 60 C180 100 140 140 100 180Z"
-          fill="#fb7185"
+          fill="#ea1b3a"
           opacity="0.7"
         />
       </svg>
@@ -33,7 +31,7 @@ export function Rose({ className = "" }: { className?: string }) {
       >
         <path
           d="M100 180 C60 140 20 100 20 60 C20 30 50 10 100 50 C150 10 180 30 180 60 C180 100 140 140 100 180Z"
-          fill="#ec4899"
+          fill="#dc1f25"
           opacity="0.6"
         />
       </svg>
@@ -44,19 +42,18 @@ export function Rose({ className = "" }: { className?: string }) {
       >
         <path
           d="M100 180 C60 140 20 100 20 60 C20 30 50 10 100 50 C150 10 180 30 180 60 C180 100 140 140 100 180Z"
-          fill="#f9a8d4"
+          fill="#db0a22"
           opacity="0.7"
         />
       </svg>
 
       {/* Rose Image - Replace the src with your own rose image */}
-      <Image
-        src="/images/rose.png"
+      <img
+        src="/rose.png"
         alt="A beautiful rose for you"
-        width={150}
-        height={200}
+        width={100}
+        height={150}
         className="drop-shadow-xl object-contain"
-        priority
       />
     </div>
   )
