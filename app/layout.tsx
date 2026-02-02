@@ -9,7 +9,7 @@ const _quicksand = Quicksand({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'Be My Valentine? 💕',
-  description: 'A special question for Alexandra',
+  description: '',
   generator: 'v0.app',
   icons: {
     icon: [
