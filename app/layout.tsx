@@ -8,8 +8,8 @@ const _dancingScript = Dancing_Script({ subsets: ["latin"], weight: ["400", "700
 const _quicksand = Quicksand({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: '',
-  description: '',
+  title: 'Be My Valentine? 💕',
+  description: 'A special question for Alexandra',
   generator: 'v0.app',
   icons: {
     icon: [

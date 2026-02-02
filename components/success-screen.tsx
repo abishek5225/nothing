@@ -37,11 +37,11 @@ export function SuccessScreen() {
             Yay!!!
           </h1>
           <p className="text-2xl text-foreground font-medium">
-             I’m really glad you said yes.
+            I knew you would say yes!
           </p>
           <p className="text-lg text-muted-foreground">
-          This just made my day.
-            </p>
+            You just made me the happiest person ever!
+          </p>
         </div>
 
         {/* Hearts decoration */}
@@ -54,7 +54,7 @@ export function SuccessScreen() {
         </div>
 
         <p className="text-muted-foreground italic">
-          Thank you very much! 🥰
+          Can't wait to spend Valentine's Day with you, Alexandra! 🥰
         </p>
       </CardContent>
     </Card>
