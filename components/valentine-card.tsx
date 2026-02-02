@@ -26,9 +26,9 @@ export function ValentineCard({ onYesClick, onNoClick, isSubmitting }: Valentine
   "Pretty please?",
   "Just say yes!",
   "Come on!",
-  "Healthy choices matter 😉",
-  "A 100-year life needs good habits",
-  "So can I be one good choice today? 😊"
+  "Healthy choices matter ",
+  "Why oh why tell me why not me",
+  "haha how was it?"
 ]
 
   const moveNoButton = useCallback(() => {
@@ -107,7 +107,7 @@ export function ValentineCard({ onYesClick, onNoClick, isSubmitting }: Valentine
         </div>
 
         {noAttempts > 0 && noAttempts < 10 && (
-          <p className="text-sm text-muted-foreground animate-pulse text-center">
+          <p className="text-2xl text-muted-foreground animate-pulse text-center">
   {noAttempts <= 2
     ? "Hehe, nice reflexes!"
     : noAttempts <= 4
