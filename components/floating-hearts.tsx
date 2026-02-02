@@ -19,7 +19,7 @@ export function FloatingHearts() {
       id: i,
       left: Math.random() * 100,
       size: Math.random() * 20 + 15,
-      delay: Math.random() * 5,
+      delay: Math.random() * 4,
       duration: Math.random() * 10 + 10,
       opacity: Math.random() * 0.4 + 0.2,
     }))
