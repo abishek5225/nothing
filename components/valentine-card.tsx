@@ -108,8 +108,10 @@ export function ValentineCard({ onYesClick, onNoClick, isSubmitting }: Valentine
 
         {noAttempts > 0 && noAttempts < 10 && (
           <p className="text-2xl text-muted-foreground animate-pulse text-center">
-  {noAttempts <= 2
+  {noAttempts <= 1
     ? "Hehe, nice reflexes!"
+    : noAttempts <= 2
+      ? "Go for it 😄"
     : noAttempts <= 4
       ? "Looks like cardio for the No button 😄"
       : noAttempts <= 6

@@ -42,13 +42,13 @@ export function SadScreen({ onChangeAnswer }: SadScreenProps) {
             </h1>
             
             <blockquote className="text-lg text-muted-foreground/80 italic border-l-4 border-muted pl-4 text-left">
-              "The saddest thing about love is that not only that it cannot last forever, but that heartbreak is soon forgotten."
+              "Fair enough   
+  Wishing you a really lovely Valentine’s Day."
             </blockquote>
-            <p className="text-sm text-muted-foreground/60">— William Faulkner</p>
           </div>
 
           <p className="text-muted-foreground">
-            I understand, Alexandra... but my heart will always have a place for you.
+          I'm glad that i meet you.
           </p>
 
           {/* Change answer button */}
