@@ -28,22 +28,12 @@ export async function POST(request: Request) {
                 / | \\
 ═══════════════════════════════════════════
 
-My Dearest,
-
-The most beautiful thing just happened...
 
 ALEXANDRA SAID YES!
 
-She clicked that "Yes" button and agreed to be your Valentine!
-
+yayyyyyyyy
 This moment happened at: ${new Date().toLocaleString()}
 
-Your heart must be racing right now, and rightfully so.
-Go tell her how much this means to you.
-Make this Valentine's Day unforgettable.
-
-With love and roses,
-Your Valentine Messenger
 
 ═══════════════════════════════════════════
     `.trim()
@@ -55,26 +45,14 @@ Your Valentine Messenger
 
 Dear Friend,
 
-I'm sorry to deliver this news...
 
-Alexandra clicked "No" on your Valentine's proposal.
+Alexandra clicked "No" 
 
 This happened at: ${new Date().toLocaleString()}
 
 But remember:
 
-"The course of true love never did run smooth."
-— William Shakespeare
 
-Don't give up hope. Sometimes love takes time.
-Maybe she needs a moment, maybe a gesture,
-or maybe just another chance to see your heart.
-
-The page showed her a "Change my mind" button.
-Perhaps she'll click it.
-
-Stay strong,
-Your Valentine Messenger
 
 ═══════════════════════════════════════════
     `.trim()
