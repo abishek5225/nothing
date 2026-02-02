@@ -18,18 +18,18 @@ export function ValentineCard({ onYesClick, onNoClick, isSubmitting }: Valentine
   const [noAttempts, setNoAttempts] = useState(0)
   const containerRef = useRef<HTMLDivElement>(null)
 
-  const messages = [
-    "Wanna be my Valentine?",
-    "Are you sure?",
-    "Really sure?",
-    "Think again!",
-    "Pretty please?",
-    "Just say yes!",
-    "Come on!",
-    "I promise to be sweet!",
-    "I'll make you happy!",
-    "Say yes already!",
-  ]
+ const messages = [
+  "Wanna be my Valentine?",
+  "Are you sure?",
+  "Really sure?",
+  "Think again!",
+  "Pretty please?",
+  "Just say yes!",
+  "Come on!",
+  "Healthy choices matter 😉",
+  "A 100-year life needs good habits",
+  "So can I be one good choice today? 😊"
+]
 
   const moveNoButton = useCallback(() => {
     // Move the No button within a constrained area on the right side
@@ -108,16 +108,17 @@ export function ValentineCard({ onYesClick, onNoClick, isSubmitting }: Valentine
 
         {noAttempts > 0 && noAttempts < 10 && (
           <p className="text-sm text-muted-foreground animate-pulse text-center">
-            {noAttempts <= 2
-              ? "Hehe, nice try!"
-              : noAttempts <= 4
-                ? "You really thought you could click it?"
-                : noAttempts <= 6
-                  ? "The No button is shy..."
-                  : noAttempts <= 8
-                    ? "It keeps running away from you!"
-                    : "Almost there... are you really sure?"}
-          </p>
+  {noAttempts <= 2
+    ? "Hehe, nice reflexes!"
+    : noAttempts <= 4
+      ? "Looks like cardio for the No button 😄"
+      : noAttempts <= 6
+        ? "It skips leg day… clearly"
+        : noAttempts <= 8
+          ? "Still warming up!"
+          : "Okay, cooldown time — your call 😊"}
+</p>
+
         )}
         {noAttempts >= 10 && (
           <p className="text-sm text-muted-foreground/70 text-center">
