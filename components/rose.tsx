@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 export function Rose({ className = "" }: { className?: string }) {
   return (
     <div className={`relative ${className}`}>
@@ -50,13 +48,12 @@ export function Rose({ className = "" }: { className?: string }) {
       </svg>
 
       {/* Rose Image - Replace the src with your own rose image */}
-      <Image
-        src="/images/rose.png"
+      <img
+        src="/rose.png"
         alt="A beautiful rose for you"
         width={150}
         height={200}
         className="drop-shadow-xl object-contain"
-        priority
       />
     </div>
   )
